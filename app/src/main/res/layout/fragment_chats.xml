@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FAFAFA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Título del proyecto -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Proyecto: Plataforma de Anuncios"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="16dp"
+            android:textColor="#3E4A89" />
+
+        <!-- Sección de funcionalidades -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Funcionalidades Principales:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:textColor="#1D3557" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Crear anuncios con información detallada del producto."
+            android:textSize="16sp"
+            android:paddingBottom="4dp"
+            android:textColor="#4A4A4A" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Capturar fotografías o seleccionar imágenes desde la galería."
+            android:textSize="16sp"
+            android:paddingBottom="4dp"
+            android:textColor="#4A4A4A" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Buscar anuncios basados en la ubicación actual."
+            android:textSize="16sp"
+            android:paddingBottom="4dp"
+            android:textColor="#4A4A4A" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Ver detalles del producto y del vendedor."
+            android:textSize="16sp"
+            android:paddingBottom="4dp"
+            android:textColor="#4A4A4A" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Llamar, enviar mensajes o localizar al vendedor en el mapa."
+            android:textSize="16sp"
+            android:paddingBottom="4dp"
+            android:textColor="#4A4A4A" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Implementar permisos de usuario en tiempo de ejecución."
+            android:textSize="16sp"
+            android:paddingBottom="16dp"
+            android:textColor="#4A4A4A" />
+
+        <!-- Sección de ubicación -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ubicación y Mapas:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:textColor="#1D3557" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="La plataforma utiliza mapas interactivos para localizar los anuncios y mostrar la ubicación de los vendedores, facilitando la conexión entre compradores y vendedores."
+            android:textSize="16sp"
+            android:paddingBottom="16dp"
+            android:textColor="#4A4A4A" />
+
+        <!-- Sección de contacto -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Interacción con el Vendedor:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:textColor="#1D3557" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Desde cada anuncio, el usuario podrá:"
+            android:textSize="16sp"
+            android:paddingBottom="4dp"
+            android:textColor="#4A4A4A" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Llamar directamente al vendedor."
+            android:textSize="16sp"
+            android:paddingBottom="4dp"
+            android:textColor="#4A4A4A" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Enviar mensajes de texto."
+            android:textSize="16sp"
+            android:paddingBottom="4dp"
+            android:textColor="#4A4A4A" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Ver su ubicación en el mapa."
+            android:textSize="16sp"
+            android:paddingBottom="16dp"
+            android:textColor="#4A4A4A" />
+
+        <!-- Sección de permisos -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seguridad y Permisos:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:textColor="#1D3557" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="El sistema solicitará permisos en tiempo de ejecución para garantizar una experiencia segura y personalizada para el usuario."
+            android:textSize="16sp"
+            android:paddingBottom="16dp"
+            android:textColor="#4A4A4A" />
+
+        <!-- Pie de página -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¡Un proyecto que conecta personas y oportunidades!"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:paddingTop="16dp"
+            android:textColor="#2A9D8F" />
+
+    </LinearLayout>
+</ScrollView>
